@@ -14,7 +14,7 @@ public class bomdia {
             System.out.println("boa noite");
         }else if (hora>=00.00&&hora<6.00){
             System.out.println("vai dormir");
-        }
+        }else
         sc.close();
     }
 }
