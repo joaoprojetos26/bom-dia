@@ -4,6 +4,7 @@ import java.util.Scanner;
 public class bomdia {
     public static void main(String[] args) {
         Scanner sc = new Scanner(System.in);
+        System.out.println("quantas horas?");
         double hora = sc.nextDouble();
 
         if (hora>=6.00&&hora<12.00){
