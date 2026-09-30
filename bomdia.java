@@ -5,7 +5,7 @@ public class bomdia {
     public static void main(String[] args) {
         Scanner sc = new Scanner(System.in);
         System.out.println("quantas horas?");
-        double hora = sc.nextDouble();
+        int hora = sc.nextInt();
 
         if (hora>=6&&hora<12){
             System.out.println("bom dia");
